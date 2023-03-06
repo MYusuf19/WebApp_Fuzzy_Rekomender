@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width:700px;
+    padding: 10px;
+}
+
+.tampilanatas{
+
+    display: flex;
+}
+
+div.totaluang{
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(136, 1, 1);
+    color:rgb(136, 1, 1);
+}
+
+
+.totaluang span {
+    display: flex;
+    background-color: rgb(136, 1, 1);
+    color: white;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+div.totaluntung{
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(136, 1, 1);
+    color:rgb(136, 1, 1);
+}
+
+
+.totaluntung span {
+    display: flex;
+    background-color: rgb(136, 1, 1);
+    color: white;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.action {
+    margin-top: 10px;
+    display: flex;
+}
+
+.action a{
+    margin-left:20px;
+    margin-bottom: 10px;
+
+}
+
+table {
+    text-align: center;
+
+}
+
+body table tr:first-child {
+    background-image: linear-gradient(to top left,rgb(21, 76, 128),rgb(36, 122, 156),rgb(53, 144, 197));
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+table tr td {
+    padding: 15px;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(245, 248, 255);
+    color: rgb(0, 0, 0);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(241, 245, 253);
+    color: rgb(0, 0, 0);
+}
+
+table tr.tmasuk:nth-child(odd) {
+ background-color: rgb(252, 252, 137);
+}
+
+table tr.tmasuk:nth-child(even) {
+    background-color: rgb(252, 252, 137);
+   }
+
+table.detail {
+    padding: 0;
+    font-size: 9pt;
+    margin: 0 0 10px 0;
+}
+
+table.detail td {
+    padding: 8px;
+    font-size: 9pt;
+}
+
+body table.detail tr:first-child {
+    background-image: linear-gradient(to top left,rgb(128, 21, 21),rgb(168, 45, 45),rgb(179, 35, 35));
+    color: white;
+}
+
+table.detail tr:nth-child(odd) {
+    background-color: rgb(255, 213, 213);
+    color: rgb(0, 0, 0);
+}
+
+table.detail tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

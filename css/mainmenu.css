@@ -1,0 +1,361 @@
+body {
+    background-color: rgb(112, 104, 104);
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pesan  {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+
+h5 {
+    display: inline;
+}
+
+.navigasi {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    box-shadow: 5px 2px 5px rgb(104, 104, 104);
+
+
+}
+
+.navigasi button {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(0, 131, 212);
+    border: none;
+    color: azure;
+}
+
+.navigasi button:first-of-type {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(0, 69, 112);
+    border: none;
+    color: azure;
+}
+
+body .navigasi button.logout {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(161, 0, 0);
+    border: none;
+    color: white;
+}
+
+.navigasi button:hover {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(21, 112, 168);
+    color: aliceblue;
+    border: none;
+}
+
+body .navigasi button.logout:hover {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(238, 168, 177);
+    border: none;
+    color: white;
+}
+
+.kontainer {
+    background-color: white;
+    margin: 0 auto;
+    width: max-content;
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgb(104, 104, 104);
+    overflow: hidden;
+
+}
+
+.kontainercari {
+    background-image: linear-gradient(to bottom right, rgb(0, 104, 189), rgb(46, 111, 172));
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 2px 5px rgb(180, 180, 180);
+}
+
+.kontainercari input:first-child {
+    width: 490px;
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.kontainercari input:first-child:focus {
+
+    border-radius: 0;
+    border: none;
+
+}
+
+.kontainercari input {
+
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+    margin: 0 5px 0 0;
+}
+
+.kontainercari button {
+    padding: 1px;
+    margin: 0 5px 0 0;
+
+}
+
+.kontainercari a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.reset {
+    display: inline-block;
+    background-color: rgb(0, 58, 112);
+    padding: 5px;
+
+}
+
+.reset:hover {
+    display: inline-block;
+    background-color: rgb(39, 113, 182);
+    padding: 5px;
+
+}
+
+.kontainercari form {
+    display: flex;
+    align-items: center;
+
+}
+
+div.totaluang {
+    display: flex;
+    border: solid 1px rgb(207, 32, 32);
+
+    height: fit-content;
+    margin: 40px 0px 10px 450px;
+
+
+}
+
+div.totaluang p {
+    margin: 0 5px 0 0;
+    display: flex;
+    color: rgb(207, 32, 32);
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.totaluang p:last-child {
+
+    margin-top: -1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 32, 32);
+    margin-bottom: -1px;
+    margin-right: -1px;
+    padding: 5px;
+}
+
+#isi table {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    color: rgb(0, 75, 126);
+    border: none;
+}
+
+#isi td {
+    font-weight: lighter;
+    border-left-color: rgb(122, 122, 122);
+    border-right-color: rgb(255, 255, 255);
+}
+
+div#isi tr:first-child {
+    background-image: linear-gradient(to top left, rgb(10, 59, 99), rgb(31, 100, 165), rgb(116, 198, 236));
+    height: 65px;
+    color: rgb(255, 255, 255);
+}
+
+
+#isi tr:nth-child(odd) {
+
+    background-image: linear-gradient(to bottom right, rgb(204, 203, 203), rgb(235, 235, 235));
+    color: rgb(33, 106, 173);
+}
+
+#isi a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#isi a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+#isi td {
+    padding: 10px;
+    text-align: center;
+}
+
+#isi tr td:last-child {
+    margin-right: -110px;
+    padding: 10px;
+    text-align: center;
+}
+
+.totalbelanja {
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    display: flex;
+    padding: 0px;
+    border: 1px rgb(255, 95, 95) solid;
+    height: 60px;
+    width: 250px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.total p {
+    margin-left: 30px;
+}
+
+.total span {
+    display: flex;
+    width: 200px;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: rgb(167, 18, 18);
+    color: white;
+    margin-top: -1px;
+}
+
+.totalbelanja button:first-child {
+    width: 350px;
+    padding: 5px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(156, 0, 0);
+    color: white;
+    border: none;
+    border: 1px solid rgb(167, 18, 18);
+    font-size: large;
+
+}
+
+.totalbelanja button:first-child:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(156, 0, 0);
+    border: none;
+    border: 1px solid rgb(156, 0, 0);
+    font-size: large;
+
+}
+
+.totalbelanja button:last-child {
+    padding: 5px;
+    width: fit-content;
+
+    height: 60px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+
+.tabelbarang table {
+    /* margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+
+    overflow: hidden;
+    color: rgb(0, 75, 126);
+    border: none;
+    border-bottom: solid 2px red;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 670px; */
+
+    text-align: center;
+    border-color: rgb(126, 126, 126);
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 670px;
+    margin-bottom: 50px;
+}
+
+.tabelbarang tr:first-child {
+    background-image:  linear-gradient(to bottom right,rgb(158, 11, 11),rgb(180, 44, 62),rgb(236, 73, 73));
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.tabelbarang tr {
+
+    font-weight: 500;
+
+}
+
+/* .tabelbarang a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tabelbarang a:hover {
+    text-decoration: none;
+    color: black;
+} */
+
+div.tabelbarang table tr td {
+    padding: 5px;
+
+    border-width: 0 0 1px 0  ;
+}
+
+div.tabelbarang button {
+    font-weight: 700;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+
+div.tabelbarang button:hover {
+    opacity: 0.75;
+}

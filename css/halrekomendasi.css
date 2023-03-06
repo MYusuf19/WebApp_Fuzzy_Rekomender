@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+}
+
+.kontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.kontainer table {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+div.kontainer table tr:first-child {
+    background-image: linear-gradient(to top left,rgb(6, 82, 126),rgb(36, 127, 163),rgb(67, 131, 190));
+    color: white;
+    font-size: large;
+}
+
+div.kontainer table tr:nth-child(odd) {
+    background-color: rgb(208, 232, 255);
+}
+
+div.kontainer table td {
+    padding: 10px;
+}

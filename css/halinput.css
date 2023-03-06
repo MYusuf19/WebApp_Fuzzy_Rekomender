@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+div.judul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    margin-left:100px ;
+}
+
+
+div.kontainer {
+   background-color: #eee;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgb(75, 75, 75);
+}
+
+pre {
+
+    margin-right: 30px;
+}
+
+pre li {
+    list-style: none;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul button:first-of-type {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 94, 148);
+}
+
+ul button:first-of-type:hover {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 78, 102);
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 8, 15);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(94, 14, 14);
+}
+
+
+body a button {
+    margin-top: 20px;
+    margin-right: -35px;
+    box-shadow: 3px 3px 3px rgb(83, 83, 83);
+}
+

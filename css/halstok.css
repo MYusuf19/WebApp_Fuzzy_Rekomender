@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.kontainer {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    padding: 30px;
+}
+
+.kontainer input {
+
+    width: 300px;
+}
+
+#navigasi {
+    color : white;
+}
+
+.cari,div.cari form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input.tambahstok {
+    width: 120px;
+}
+
+table tr:first-child {
+    background-image: linear-gradient(to top left,rgb(70, 143, 202),rgb(16, 95, 148),rgb(3, 49, 92));
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: lightblue;
+}
